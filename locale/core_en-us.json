@@ -1,0 +1,31 @@
+{
+	"core_tray_change_wallpaper" : "Change Wallpaper",
+	"core_tray_browse_workshop" : "Browse Workshop",
+	"core_tray_create_wallpaper" : "Create Wallpaper",
+	"core_tray_settings" : "Settings",
+	"core_tray_take_screenshot" : "Take Screenshot",
+	"core_tray_pause" : "Pause",
+	"core_tray_unpause" : "Unpause",
+	"core_tray_recent_wallpapers" : "Recent Wallpapers",
+	"core_tray_quit" : "Quit",
+	"core_tray_faq" : "Support && FAQ",
+	
+	"core_balloon_info" : "Wallpaper Engine minimized to your tray. Double click the tray icon to select a wallpaper.",
+	"core_balloon_desktop_window_error" : "Failed preparing desktop for live wallpaper.",
+	"core_balloon_video_error" : "Video error occurred {{err}}. Click me for help.",
+	"core_balloon_app_error" : "Failed loading application as wallpaper.",
+	
+	"core_msgboxtitle_error" : "Error",
+	"core_msgboxtitle_app_conflict" : "Conflicting Application",
+	"core_msgboxtitle_wpe" : "Wallpaper Engine",
+	
+	"core_msgbox_deskscapes" : "It appears that DeskScapes is active. This may prevent Wallpaper Engine from functioning.",
+	"core_msgbox_prompt_aero_win7" : "Wallpaper Engine needs to enable Aero in order to work. Enable Aero now?",
+	"core_msgbox_prompt_aero_win8" : "Wallpaper Engine cannot run with a 'high contrast' theme. Reset theme now?",
+	"core_msgbox_dwm_disabled" : "Desktop composition is disabled.",
+	"core_msgbox_aero_denied" : "Wallpaper Engine cannot work without Aero and will now quit.",
+	"core_msgbox_aero_failure" : "Failed to enable Aero. Wallpaper Engine will now quit.",
+	"core_msgbox_init_secondinstance_ask_quit" : "Wallpaper Engine appears to be running already and doesn't respond.\n\nDo you want to restart it forcefully?",
+	"core_msgbox_init_secondinstance_failed" : "Restart failed, error code:",
+	"core_msgbox_below_win_7" : "Wallpaper Engine requires Windows 7 or up, as indicated by the system requirements on Steam.\n\nIt appears that you are running an unsupported version of Windows and Wallpaper Engine may not work."
+}

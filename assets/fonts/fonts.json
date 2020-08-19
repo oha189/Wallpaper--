@@ -1,0 +1,21 @@
+{
+	"fonts": [{
+		"name": "compile_heading",
+		"material": "materials/fonts/antipasto_regular.json",
+		"atlas": "antipasto_regular.txt",
+		"tall": 40,
+		"proportional": true
+	}, {
+		"name": "compile_animation",
+		"material": "materials/fonts/antipasto_regular.json",
+		"atlas": "antipasto_regular.txt",
+		"tall": 18,
+		"proportional": true
+	}, {
+		"name": "compile_asset",
+		"material": "materials/fonts/antipasto_regular.json",
+		"atlas": "antipasto_regular.txt",
+		"tall": 10,
+		"proportional": true
+	}]
+}

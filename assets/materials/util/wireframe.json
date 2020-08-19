@@ -1,0 +1,7 @@
+{
+	"passes": [{
+		"shader": "wireframe",
+		"depthtest": "_disabled",
+		"depthwrite": "disabled"
+	}]
+}

@@ -1,0 +1,8 @@
+{
+	"passes": [{
+		"shader": "particle",
+		"depthwrite": "disabled",
+		"blending": "translucent",
+		"textures": ["particle/particle_dot"]
+	}]
+}

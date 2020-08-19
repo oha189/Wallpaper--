@@ -1,0 +1,11 @@
+{
+	"passes": [{
+		"shader": "particle",
+		"depthwrite": "disabled",
+		"blending": "additive",
+		"textures": ["particle/particle_dot"],
+		"usershadervalues": {
+			"schemecolor": "tint"
+		}
+	}]
+}

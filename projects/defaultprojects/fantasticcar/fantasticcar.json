@@ -1,0 +1,54 @@
+{
+	"camera" : 
+	{
+		"center" : "2.259 1.131 2.565",
+		"eye" : "2.933 1.260 3.293",
+		"paths" : [ "scripts/camera_00.json" ],
+		"up" : "0.000 1.000 0.000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.000 0.000 0.000",
+		"bloom" : true,
+		"clearcolor" : "0.000 0.000 0.000",
+		"norecompile" : true,
+		"skylightcolor" : "0.000 0.000 0.000"
+	},
+	"objects" : 
+	[
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 5,
+			"model" : "models/dome/dome.mdl",
+			"name" : "Dome",
+			"origin" : "0.000 0.000 0.000",
+			"reflected" : true,
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 6,
+			"model" : "models/car/body.mdl",
+			"name" : "Car",
+			"origin" : "0.000 0.000 0.000",
+			"reflected" : true,
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 7,
+			"model" : "models/grid/grid.mdl",
+			"name" : "Grid",
+			"origin" : "0.000 0.000 0.000",
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 8,
+			"model" : "models/util/shadow.mdl",
+			"name" : "Shadow",
+			"origin" : "0.000 0.000 0.000",
+			"scale" : "1.000 1.000 1.000"
+		}
+	]
+}

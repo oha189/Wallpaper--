@@ -1,0 +1,51 @@
+{
+	"general" : 
+	{
+		"editor" : 
+		{
+			"previewratio" : "4x3",
+			"recentfiles" : 
+			[
+				"F:/steam/steamapps/common/wallpaper_engine/projects/myprojects/12/project.json",
+				"F:/steam/steamapps/common/wallpaper_engine/projects/myprojects/11/project.json",
+				"F:/steam/steamapps/common/wallpaper_engine/projects/myprojects/1/project.json"
+			],
+			"showgrid" : false,
+			"showonstartup" : true
+		},
+		"localfiles" : null,
+		"user" : 
+		{
+			"adjustdwmcolor" : true,
+			"audioinputdevice" : "default",
+			"audioinputvolume" : 50,
+			"autostartscheduler" : false,
+			"bloom" : true,
+			"fps" : 15,
+			"graphicsapi" : "dxgi",
+			"hasshownwelcomedialog" : true,
+			"iconopacity" : 100,
+			"language" : "default",
+			"loglevel" : "error",
+			"logtofileenabled" : true,
+			"msaa" : "x2",
+			"playbackfocus" : "run",
+			"playbackfullscreen" : "pause",
+			"playbackmaximized" : "pause",
+			"preset" : "medium",
+			"reflection" : true,
+			"resolution" : "full",
+			"steamlanguage" : "schinese",
+			"videoloopmode" : "default",
+			"videoreadmode" : "fromdisk",
+			"windowupdaterate" : 1000
+		},
+		"wallpaperconfig" : 
+		{
+			"layout" : 0,
+			"selectedwallpapers" : []
+		},
+		"wallpaperconfigrecent" : null
+	},
+	"wallpaperproperties" : null
+}

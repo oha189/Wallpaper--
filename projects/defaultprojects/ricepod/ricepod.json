@@ -1,0 +1,88 @@
+{
+	"camera" : 
+	{
+		"center" : "1.862 1.916 -2.918",
+		"centershakeamount" : 0.001,
+		"centershakespeed" : 3,
+		"eye" : "2.309 2.030 -3.806",
+		"eyeshakeamount" : 0.001,
+		"eyeshakespeed" : 3,
+		"paths" : [ "scripts/camera_00.json" ],
+		"up" : "0.000 1.000 0.000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.000 0.000 0.000",
+		"bloom" : true,
+		"norecompile" : true,
+		"clearcolor" : "0.000 0.000 0.000",
+		"skylightcolor" : "0.000 0.000 0.000"
+	},
+	"objects" : 
+	[
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 1,
+			"model" : "models/ricepod/skybox.mdl",
+			"name" : "Skybox",
+			"origin" : "0.000 0.000 0.000",
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 2,
+			"model" : "models/ricepod/orbitaleffects.mdl",
+			"name" : "orbit FX",
+			"origin" : "0.000 0.000 0.000",
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 3,
+			"model" : "models/ricepod/ricepod.mdl",
+			"name" : "Ricepod",
+			"origin" : "0.000 0.000 0.000",
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 4,
+			"model" : "models/ricepod/jet.mdl",
+			"name" : "jet 1",
+			"origin" : "0.592 0.396 -1.412",
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 5,
+			"model" : "models/ricepod/jet.mdl",
+			"name" : "jet 2",
+			"origin" : "-0.592 0.396 -1.412",
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 6,
+			"model" : "models/ricepod/jet.mdl",
+			"name" : "jet 3",
+			"origin" : "0.000 -0.608 -1.412",
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 7,
+			"name" : "",
+			"origin" : "0.000 0.000 0.000",
+			"particle" : "particles/starfield.json",
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 8,
+			"name" : "sun",
+			"origin" : "0.000 0.000 0.000",
+			"scale" : "1.000 1.000 1.000",
+			"sprite" : "materials/sprites/sunsprite.json"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"file" : "scene.json",
+	"templateoptions": [{
+		"type": "replacetexture",
+		"name": "Flag image",
+		"description": "Replace the image shown on the flag. The recommended image size is 2048 x 1024 pixels.",
+		"destination": "materials/flag_texture.png"
+	}]
+}

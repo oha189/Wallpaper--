@@ -1,0 +1,47 @@
+{
+	"camera" : 
+	{
+		"center" : "1.319 1.498 1.466",
+		"eye" : "2.000 2.000 2.000",
+		"paths" : [ "scripts/camera_00.json" ],
+		"up" : "0.000 1.000 0.000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.000 0.000 0.000",
+		"bloom" : true,
+		"clearcolor" : "0.000 0.000 0.000",
+		"skylightcolor" : "0.000 0.000 0.000"
+	},
+	"objects" : 
+	[
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 1,
+			"model" : "models/dome/dome.mdl",
+			"name" : "Dome",
+			"origin" : "0.000 0.000 0.000",
+			"reflected" : true,
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 2,
+			"model" : "models/grid/grid.mdl",
+			"name" : "Grid",
+			"origin" : "0.000 0.000 0.000",
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"id" : 3,
+			"intensity" : 2,
+			"light" : "point",
+			"name" : "",
+			"origin" : "2.637 3.351 2.513",
+			"radius" : 14.270000457763672,
+			"scale" : "1.000 1.000 1.000"
+		}
+	]
+}

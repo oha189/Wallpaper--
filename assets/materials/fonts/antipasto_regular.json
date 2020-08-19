@@ -1,0 +1,8 @@
+{
+	"passes": [{
+		"shader": "font",
+		"textures": ["fonts/antipasto_regular"],
+		"blending": "translucent",
+		"depthtest": "disabled"
+	}]
+}

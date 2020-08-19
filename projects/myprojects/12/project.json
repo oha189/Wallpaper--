@@ -1,0 +1,17 @@
+{
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"text" : "Scheme color",
+				"type" : "color",
+				"value" : "0.3215686274509804 0.8117647058823529 1"
+			}
+		}
+	},
+	"title" : "1",
+	"type" : "scene"
+}

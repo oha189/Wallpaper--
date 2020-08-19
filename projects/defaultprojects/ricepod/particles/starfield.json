@@ -1,0 +1,35 @@
+{
+	"material": "materials/particle/particle.json",
+	"maxcount": 50,
+	"emitter": [{
+		"name": "sphererandom",
+		"rate": 5,
+		"origin": "0 0 8",
+		"directions" : "1 1 0",
+		"distancemin": 10,
+		"distancemax": 12
+	}],
+	"initializer": [{
+		"name": "lifetimerandom",
+		"min": 6,
+		"max": 8
+	}, {
+		"name": "sizerandom",
+		"min": 0.2,
+		"max": 0.5
+	}, {
+		"name": "velocityrandom",
+		"min": "0 0 -2",
+		"max": "0 0 -4"
+	}, {
+		"name": "colorrandom",
+		"min": "128 115 100",
+		"max": "128 115 100"
+	}],
+	"operator": [{
+		"name": "movement",
+		"gravity": "0 0 0"
+	}, {
+		"name": "alphafade"
+	}]
+}

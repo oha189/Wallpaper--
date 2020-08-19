@@ -1,0 +1,15 @@
+"InstallScript"
+{
+	"Run Process On Uninstall"
+	{
+		"Process_name"
+		{
+			"Process 1"		"%INSTALLDIR%\\launcher.exe"
+			"Command 1"		"-uninstall"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"58f134f6d8417fbb5e8b196e0c7a3429d5c532c94ec3a724941edad639acba6623b1d35950ee3080a346c42b99a18f58aea7040154a71d205acd49e03f7c7926e45e7243fc1125723a55011cb729fa6cd090b67a0b44970b72b182bc48d07f7ad68fb5d7b2f27f2259ea75128581634478dd3a8aaeb59cec3fd8c28811829053"
+}

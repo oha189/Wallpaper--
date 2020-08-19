@@ -1,0 +1,12 @@
+{
+	"passes" : 
+	[
+		{
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericimage",
+			"textures" : [ "60268880_p0" ]
+		}
+	]
+}

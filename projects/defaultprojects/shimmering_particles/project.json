@@ -1,0 +1,22 @@
+{
+	"authorsteamid" : "76561197975619619",
+	"file" : "shimmering_particles.mp4",
+	"official" : true,
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"text" : "Scheme color",
+				"type" : "color",
+				"value" : "0.8666666666666667 0.6823529411764706 0.3803921568627451"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"timestamp" : 0,
+	"title" : "Shimmering Particles",
+	"type" : "video",
+	"visibility" : "public"
+}

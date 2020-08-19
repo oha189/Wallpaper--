@@ -1,0 +1,31 @@
+{
+	"camera" : 
+	{
+		"center" : "-1676.961 -713.833 -1.000",
+		"eye" : "-1676.961 -713.833 0.000",
+		"up" : "0.000 1.000 0.000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.300 0.300 0.300",
+		"bloom" : false,
+		"clearcolor" : "0.700 0.700 0.700",
+		"orthogonalprojection" : 
+		{
+			"height" : 1440,
+			"width" : 3440
+		},
+		"skylightcolor" : "0.300 0.300 0.300"
+	},
+	"objects" : 
+	[
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 3,
+			"image" : "models/60268880_p0.json",
+			"name" : "60268880_p0",
+			"origin" : "0.000 0.000 0.000",
+			"scale" : "1.000 1.000 1.000"
+		}
+	]
+}

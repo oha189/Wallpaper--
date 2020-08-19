@@ -1,0 +1,15 @@
+{
+	"file" : "scene.json",
+	"type" : "scene",
+	"templateoptions": [{
+		"type": "replacetexture",
+		"name": "Background image",
+		"description": "Replace the background image. It should contain water of some sort that you want to animate. The recommended image size is 1920 x 1080 pixels.",
+		"destination": "materials/background.png"
+	}, {
+		"type": "replacetexture",
+		"name": "Water flow map",
+		"description": "Replace the water flow map. The image can generally be a lot smaller than your background image, like 480 x 270, but the background image must be a multiple of this size. The red channel defines horizontal water flow, the green channel controls vertical water flow.",
+		"destination": "materials/flowmask.png"
+	}]
+}

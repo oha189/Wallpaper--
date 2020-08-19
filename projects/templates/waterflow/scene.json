@@ -1,0 +1,30 @@
+{
+	"camera" : 
+	{
+		"center" : "238.587 -97.577 -1.000",
+		"eye" : "238.587 -97.577 0.000",
+		"up" : "0.000 1.000 0.000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.300 0.300 0.300",
+		"bloom" : false,
+		"clearcolor" : "0.700 0.700 0.700",
+		"orthogonalprojection" : 
+		{
+			"height" : 1080,
+			"width" : 1920
+		},
+		"skylightcolor" : "0.300 0.300 0.300"
+	},
+	"objects" : 
+	[
+		{
+			"angles" : "0.000 0.000 0.000",
+			"image" : "models/background.json",
+			"name" : "Background",
+			"origin" : "960 540 0.000",
+			"scale" : "1.1 1.1 1.000"
+		}
+	]
+}

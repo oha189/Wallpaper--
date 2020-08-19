@@ -1,0 +1,111 @@
+{
+	"shaders": [{
+		"value": "default",
+		"shader": "generic",
+		"label": "Generic"
+	}, {
+		"value": "normalmapped",
+		"shader": "generic",
+		"label": "Generic normal mapped",
+		"combos": {
+			"normalmap": 1
+		},
+		"textures": [{
+			"suffix": ""
+		}, {
+			"suffix": "_normal",
+			"config": {
+				"format": "dxt5n"
+			}
+		}]
+	}, {
+		"value": "lightmapped",
+		"shader": "generic",
+		"label": "Lightmapped",
+		"combos": {
+			"lightmap": 1
+		},
+		"textures": [{
+			"suffix": ""
+		}, {
+			"suffix": "_lightmap"
+		}]
+	}, {
+		"value": "lightmappednormalmapped",
+		"shader": "generic",
+		"label": "Lightmapped normal mapped",
+		"combos": {
+			"normalmap": 1,
+			"lightmap": 1
+		},
+		"textures": [{
+			"suffix": ""
+		}, {
+			"suffix": "_normal",
+			"config": {
+				"format": "dxt5n"
+			}
+		}, {
+			"suffix": "_lightmap"
+		}]
+	}, {
+		"value": "skybox",
+		"shader": "skybox",
+		"label": "Skybox"
+	}],
+	"imageshaders": [{
+		"value": "imagegeneric",
+		"shader": "genericimage",
+		"label": "Image",
+		"depthtest": "disabled",
+		"depthwrite": "disabled",
+		"cullmode": "nocull",
+		"textures": [{
+			"suffix": "",
+			"config": {
+				"nonpoweroftwo": true
+			}
+		}]
+	}, {
+		"value": "imagegenericspritesheet",
+		"shader": "genericimage",
+		"label": "Image (animated GIF)",
+		"depthtest": "disabled",
+		"depthwrite": "disabled",
+		"cullmode": "nocull",
+		"combos": {
+			"spritesheet": 1
+		},
+		"textures": [{
+			"suffix": "",
+			"config": {
+				"nonpoweroftwo": true,
+				"nointerpolation" : true,
+				"clampuvs" : true,
+				"nomip" : true,
+				"format": "rgba8888"
+			}
+		}]
+	}, {
+		"value": "imagegenericmulti",
+		"shader": "genericimage",
+		"label": "Image Multitexture",
+		"depthtest": "disabled",
+		"depthwrite": "disabled",
+		"cullmode": "nocull",
+		"combos": {
+			"multi": 1
+		},
+		"textures": [{
+			"suffix": "",
+			"config": {
+				"nonpoweroftwo": true
+			}
+		}, {
+			"suffix": "_mask",
+			"config": {
+				"nonpoweroftwo": true
+			}
+		}]
+	}]
+}

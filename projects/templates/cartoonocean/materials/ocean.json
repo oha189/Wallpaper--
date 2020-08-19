@@ -1,0 +1,24 @@
+{
+	"passes" : 
+	[
+		{
+			"constantshadervalues" : 
+			{
+				"Clouds" : "0.843 0.941 1.000",
+				"Clouds2" : "0.259 0.259 0.424",
+				"Cut alpha" : 0.69999998807907104,
+				"Cut out" : "1.000 1.000 1.000",
+				"Cut skew" : -0.31000000238418579,
+				"Ocean" : "0.055 0.475 0.514",
+				"Ocean2" : "0.475 0.722 0.875",
+				"Shore" : 0.20000000298023224,
+				"Sky" : "0.624 0.914 0.922",
+				"Sky2" : "0.224 0.718 1.000"
+			},
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "ocean",
+			"textures" : [ "ocean", "caustics", "clouds", "wave_distort" ]
+		}
+	]
+}
